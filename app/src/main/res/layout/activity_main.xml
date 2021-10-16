@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:textAllCaps="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Expenses Manager"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+
+        />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:id="@+id/prograsbarID"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="#BF2E24"
+        android:layout_marginTop="50dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        >
+
+    </androidx.core.widget.ContentLoadingProgressBar>
+
+
+
+</LinearLayout>

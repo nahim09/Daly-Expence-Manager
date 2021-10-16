@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbg"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loging"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#00BCD4"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Details to Continue"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#00BCD4"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/text_bg"
+            android:layout_marginTop="40dp"
+            >
+
+
+            <EditText
+                android:id="@+id/email_textId"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:hint="Email : "
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_baseline_email"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/text_bg"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <EditText
+                android:id="@+id/password_textId"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:hint="Password : "
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/ic_visibility_view"
+                />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_Submit"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/button_bg"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

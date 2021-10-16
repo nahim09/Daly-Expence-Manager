@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Daly Expence Manager</string>
+
+    <string-array name="Setting_name">
+        <item>Currency</item>
+        <item>Password</item>
+        <item>Date Format</item>
+        <item>Time Format</item>
+        <item>Category</item>
+        <item>Payment Mode</item>
+        <item>Database</item>
+        <item>Suggesting</item>
+        <item>Contact Us</item>
+        <item>App Version</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string-array name="Currency_name">
+        <item>Afghanistan</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua-et-Barbuda</item>
+        <item>Argentine</item>
+        <item>Aruba</item>
+        <item>Bahamas</item>
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Belize</item>
+        <item>Bhutan</item>
+        <item>Bahrain</item>
+        <item>Bolivia</item>
+        <item>Botswana</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Canada</item>
+        <item>Cap-Vert</item>
+        <item>Central African Republic</item>
+        <item>Chili</item>
+        <item>Île Christmas</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+    </string-array>
+
+</resources>
